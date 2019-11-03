@@ -1,5 +1,7 @@
-package gettestie.src.main.java.rocks.zipcode;
+package rocks.zipcode;
 
+
+import rocks.zipcode.Address;
 
 public class Person {
     private String name;
