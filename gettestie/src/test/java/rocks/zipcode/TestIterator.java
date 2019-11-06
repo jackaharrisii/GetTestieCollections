@@ -74,9 +74,7 @@ public class TestIterator {
                 iteratorTest.remove();
                 count++;
             }
-            System.out.println(iteratorTest.next());
-//            assertEquals(false, testTreeSet.contains("November"));
-            assertEquals(25,testTreeSet.size());
         }
+        assertEquals(1,count);
     }
 }

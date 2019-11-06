@@ -39,15 +39,15 @@ public class TestArrayDeque {
     @Test
     //tests add
     public void TestArrayList1() {
-        testArrayDeque.add("Red 13");
-        assertEquals(true, testArrayDeque.contains("Red 13"));
+        testArrayDeque.add("Red XIII");
+        assertEquals(true, testArrayDeque.contains("Red XIII"));
     }
 
     @Test
     //tests addFirst and getFirst
     public void TestArrayList2() {
-        testArrayDeque.addFirst("Red 13");
-        assertEquals("Red 13", testArrayDeque.getFirst());
+        testArrayDeque.addFirst("Red XIII");
+        assertEquals("Red XIII", testArrayDeque.getFirst());
     }
 
     @Test
